@@ -1,0 +1,184 @@
+<html>
+<title>Currently in the 'pu' branch</title>
+<style type="text/css" media="all">
+    body {
+      width: 600px;
+    }
+</style>
+<body>
+<h1>Currently in the 'pu' branch</h1>
+<p>The comment about each topic branch is taken from the latest
+<em>What's cooking in erlang/otp</em> email and may no longer apply if
+the topic branch has been updated.
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/7526eb89454a7227d791754f98f0e1af35ea4564">rani/inet_gethostbyname_fixes</a> (erts, kernel):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/abfa72fc176aaf6d42a001829aeced2001156331">inet:gethostbyname improved to parse IP strings and look up own hostname</a></li>
+</ul>
+<p>
+<font color="red">This topic branch introduces 4 lines with whitespace errors.</font>
+<p><i>New topic branch</i>
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/da6d628ab126cf42fb49159adfddb0c1c98d8643">bg/temp-hipe-fixes</a> (compiler, hipe, kernel):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/5c9a0176cb18d91322519208385d01f0bfad3cb3">Crudely fix return type for the lists:key{search,find,member}/3</a></li>
+<li><a href="http://github.com/erlang/otp/commit/c569f8532cd9ab1714887f4caeb94f7a764281b8">seq_trace_SUITE: Don't native-compile</a></li>
+<li><a href="http://github.com/erlang/otp/commit/101dcc838f655b14018e234c4eadc479d99e4535">Disable native code if on_load is used</a></li>
+<li><a href="http://github.com/erlang/otp/commit/cb4495902cb8bf1de3d1a83dfdbb683d24212b66">andor_SUITE: Don't native-compile</a></li>
+</ul>
+<p>
+<font color="red">This topic branch introduces 1 line with whitespace errors.</font>
+<p><i>New topic branch</i>
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/4fb3090673457d205cdf520697df31c6e3d4ffff">bg/erl_bif_types</a> (hipe):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/7c72a779813fd93eaa0c1ee2ac463a3423b25452">erl_bif_types: add 'http_bin' as a valid packet option</a></li>
+</ul>
+<p><i>New topic branch</i>
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/12fea9cfa56ec194c960150c2ceebacc8086b435">jb/atom-table-size</a> (erts):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/704b91790601a3a2a842999c472b2b883f82051e">Add the +t emulator option to change the maximum number of atoms</a></li>
+</ul>
+<p>(Replacement for the jb/atom_table_size_env branch.) This branch will probably
+be graduated next week after a final review of the implementation.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/fe825d00b3b19a924cb90749110f095d05c1a777">dgud/emacs-mode</a> (tools):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/2cbe8533fe2f0bde3c1a61012b805d0e1652a7e0">Added the old style skeletons, and a variable to change.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/b4fd16161390cda361273ca5a50712dfbac064a0">Move code skeletons to a separate file. Use the updated skeletons from the Erlware Mode.</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/f0d64e9a831b6892f4124f6316047ebcd4dd758f">jn/sasl-format_report</a> (sasl):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/ee8f29f501866a37bf5497fc2b9d411a560b4911">Added sasl_report:format_report/3 to return a string rather than send an io</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/4716c81e0cefed950a72e7fbfeb79faad3b00ec2">ks/bsl_system_limit</a> (hipe):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/dcada6957f0fe948fa845cf12424ebc4b8c6e390">Fix a HiPE compiler bug evaluating an expression that throws system_limit.</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/5fa26ded0427c1bcff7712d88c4fffce382170e6">jn/supervisor_child_count_only</a> (stdlib):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/10ef53fd940208e7f183ee5300112c6b3c0c8f71">Add count_children/1 to supervisor.erl to determine the number of children being managed without the memory impact of which_children/1</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/6d96ede6d4e2b39f4f9f51947a71399aa7b865b8">sf/erl_match-longlong</a> (erl_interface):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/938ccfe9c937c7d7716bb3f4fa17264ab03a240b">erl_interface: Allow erl_match() to match ERL_LONGLONG and ERL_U_LONGLONG terms</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/4a4d2f67941c2a7d82c9b4c31e6ec7c79f120d5f">gc/hipe_darwin_amd64</a> (erts):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/32ca14f44de136fe517787f0fa1e53df6b0d0bc8">Fix hipe memory allocation problems on darwin/amd64.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/427f1db8dd74742d8584ff820a60bac25c01cd1f">Porting x86 darwin fixes to amd64 darwin hipe asm/m4 code.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/43ae4b743eafdeba7979e575990c590039ba79e3">Automatically enable hipe for darwin/amd64 builds.</a></li>
+<li><a href="http://github.com/erlang/otp/commit/733ce7ae705a712a2017f9124e3448b5a100aee0">Allow configure to enable_hipe for darwin/amd64 builds.</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/a4258706ffd1c6dbf100d84a8adf689f2f451e63">pan/enable_m32_build</a> (erts, otp):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/15c78172e83901403e69a6999f22c3160b64c742">Teach configure --enable-m32-build for forcing a 32-bit build</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/ae7f4034706cb51a6298c67e80d9b7c010f84ebb">jp/dependencies_makefile</a> (compiler, erts):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/bf2708d3b92705320679c51ace9d2c208d779298">squash! fix snprintf for Windows</a></li>
+<li><a href="http://github.com/erlang/otp/commit/7cbc4374a3621e26067c187ce36d3e75dfa70873">Add dependencies Makefile generation to erlc(1) and compile(3)</a></li>
+</ul>
+<p>Approved in principle by the OTP Technical Board; now awaits a closer
+review of the implementation.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/a8e94b6ef39754b139bc1f7e05862336a13c08a3">is/mnesia-send-compressed</a> (mnesia):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/583d00b9085681414bf8855db3f0063291eafd45">Update documentation to describe the new Mnesia option "send_compressed"</a></li>
+<li><a href="http://github.com/erlang/otp/commit/86f786eb11d77171a80bb3cd3b7298fbb787534f">Add option to compress data when copying tables between Mnesia nodes</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/9c526e103e649b944eb5304b42b90dbe1a39d083">sc/sctp-connect-nowait</a> (kernel):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/ae3d819044ea6fb77ecf15ceed4a0cfe611572b4">Implement a non-blocking SCTP connect</a></li>
+</ul>
+<p>Approved in principle, but the implementation needs some
+finish touches as pointed out by Raimo, and also
+documentation and test cases.
+
+<p>
+
+</li>
+<li><a href="http://github.com/erlang/otp/commit/6528230031873a777bfd6c134e641b6530821171">va/rb-improvements</a> (sasl):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/5391383193d4fe024c470c8db7579f45dd9a8c3d">New function to filter reports by date</a></li>
+<li><a href="http://github.com/erlang/otp/commit/ed283484cfff13405da02e097e98fe2a8dc02c65">New rb:filter/1 function to ease report filtering</a></li>
+<li><a href="http://github.com/erlang/otp/commit/e5bd09137ea459255f1661efc4cc5ca1bea4bfdf">Add rb:re/1 to grep reports using the re module</a></li>
+<li><a href="http://github.com/erlang/otp/commit/07c6ad442552a1b8d4d10a68b526378368a59253">Fix minor typo in read_report/1</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/bdafea7b87f0d1a87b48849678ae69e993966efd">cf/epp-macro-overloading</a> (otp, parsetools, stdlib):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/1ab56cb24a8a037d61076314230839fdcc325d7d">yecc_SUITE: Adjustment for modified error tuple</a></li>
+<li><a href="http://github.com/erlang/otp/commit/77a1272d90f93fba24d56b5121ad13cb4ab57f84">epp_SUITE: Increase code coverage</a></li>
+<li><a href="http://github.com/erlang/otp/commit/ec618ee396decf7afe9ef86b80d205649914badb">Minor corrections and clean-ups</a></li>
+<li><a href="http://github.com/erlang/otp/commit/c41689666b0410b51c1fe6acb9e2ec517fdfcad9">documentation: Macros overloading partly rewritten</a></li>
+<li><a href="http://github.com/erlang/otp/commit/4c182740d7180d3bdc8573ca17905898dcc2b819">update the documentation on preprocessor in the reference manual</a></li>
+<li><a href="http://github.com/erlang/otp/commit/27d7ca04eb2933345b5be50870a197a3b19588c0">epp: change rules to choose the right version of a macro</a></li>
+<li><a href="http://github.com/erlang/otp/commit/5023556e555fd99d6b5bbe77707066371e38abd7">epp: Add support of macros overloading</a></li>
+<li><a href="http://github.com/erlang/otp/commit/0d15f8ab1293a611831840df75ea40eee41b86a2">epp: fix bug in the function scan_undef</a></li>
+</ul>
+<p>Extend the pre-processor to allow overloading of macros with
+the same name but different arities.
+
+<p>Approved by the OTP Technical Board. Will probably graduate
+before the R13B04 release.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/0d3a2368c318df6fc80495929098e56a30e8b2fb">at/odbc_osx_fix</a> (odbc):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/88c71c95d23afc3d185d64b050cb5fba243d4cee">Workaround broken ODBC implementation on OSX 10.5</a></li>
+</ul>
+<p></li>
+<li><a href="http://github.com/erlang/otp/commit/75f51dedcf88b2c730818916e7073d6014dc32ec">db/tv_nthtail_fix</a> (tv):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/abe07595f90a5a83ce96100fbd1c0da40a765704">Fix for tv which restarts while trying to open a table</a></li>
+</ul>
+<p>The author of this topic branch has found the real reason for
+the problem and has made some progress in resolving it.
+
+<p>
+</li>
+<li><a href="http://github.com/erlang/otp/commit/6e0a6a442001982a90fbbb0af4886948952141fe">po/odbc-update-delete-no-rows</a> (odbc):
+
+<ul>
+<li><a href="http://github.com/erlang/otp/commit/1a564f84da39a309e40353ae52f2bb4366268a1e">SQL_NO_DATA and SQLSTATE 00000 indicate success for updates/deletes that affect no rows</a></li>
+</ul>
+<p></li>
+</ul>
+</body>
+</html>
